@@ -8,7 +8,7 @@ target = sys.argv[1]
 req = requests.get(target)
 target_text = req.text
 
-form_html = """<a href=/endpointParser.php?target={0}>click here to parse {0}</a><br>"""
+form_html = """<a href=endpointParser.php?target={0}>click here to parse {0}</a><br>"""
 
 def showJs(text):
     #do the parsing and show me all of the js file

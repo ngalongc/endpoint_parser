@@ -30,7 +30,7 @@ echo exec("python scanAndParse.py " . $target);
 
 <div class="row">
 
-<h2>Now You can Enter the intended js file here</h2>
+<h2>Or You can Enter the intended js file here</h2>
 <form action="endpointParser.php" method=get>
 
     <div class="col-sm-8"><input class="col-sm-12" name=target type=text id=website placeholder="https://example.com/js.js" value=""></input></div>
